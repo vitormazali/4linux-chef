@@ -1,9 +1,6 @@
 #
-# Cookbook:: first
+# Cookbook:: build_cookbook
 # Recipe:: default
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
-
-package ['iotop'] do
-  action :install
-end
+include_recipe 'delivery-truck::default'
